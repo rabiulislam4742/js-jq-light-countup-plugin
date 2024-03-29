@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS/JQ Plugins</title>
+    <!-- ==Css Links== -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+  </head>
+  <body>
+    <!-- javascript Practices -->
+    <div class="container">
+
+      <h2 class="text-warning">Click The Button To Change The Text</h2>
+
+      <button class="btn btn-dark" onclick="textChange()">Text Change</button>
+
+      <h3 id="t_change">Output Here</h3> <hr>
+
+
+      <!-- light Bulb On Off -->
+      <h3>See The Bulb And Click The On And Off Button</h3>
+
+      <img id="myImage" src="https://www.w3schools.com/js/pic_bulbon.gif.">
+
+
+      <hr>
+      <!-- show Local Time and Date -->
+      <h2 class="textChange">Click The Button to Show The Local Time And Date</h2>
+
+      <button class="btn btn-danger" onclick="showDate()">Click Me</button>
+
+      <h3 id="s_d">Show Date</h3> <hr>
+
+      <!-- Counter Up plugin start -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+
+            <div class="wrapper bb text-center">
+              <h2>Number Of Projects</h2>
+              <h3 class="count">1012</h3>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="wrapper bb text-center">
+              <h2>Number Of User</h2>
+              <h3 class="count">15565565</h3>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="wrapper bb text-center">
+              <h2>Number Of Love</h2>
+              <h3 class="count">236532566</h3>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <hr> 
+      <!-- count 2 test -->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4">
+
+            <div class="wrapper bg text-center">
+              <h2 id="counter">300</h2>
+              <h3>Projects</h3>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="wrapper bg text-center">
+              <h2 id="num2">232</h2>
+              <h3>Projects Done</h3>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="wrapper bg text-center">
+              <h2 id="num3">200</h2>
+              <h3>Happy Clients</h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- countdown start -->
+    <div class="cotainer">
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="wrapper text-center">
+            <h2>Countdown Plugin</h2>
+          <div id="countdown"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- progress bur -->
+
+    <div class="container">
+      <h1>Animated Counter Prograssbar Examples</h1>
+        <div class="progressbar-item">
+            <h4 class="progress-title">HTML</h4>
+            <div progress-bar data-percentage="90%">
+                <div class="progress-number">
+                    <div class="progress-number-mark">
+                        <span class="percent"></span>
+                        <span class="down-arrow"></span>
+                    </div>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+        <div class="progressbar-item">
+            <h4 class="progress-title">CSS</h4>
+            <div progress-bar data-percentage="40%">
+                <div class="progress-number">
+                    <div class="progress-number-mark">
+                        <span class="percent"></span>
+                        <span class="down-arrow"></span>
+                    </div>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+        <div class="progressbar-item">
+            <h4 class="progress-title">Bootstrap</h4>
+            <div progress-bar data-percentage="50%">
+                <div class="progress-number">
+                    <div class="progress-number-mark">
+                        <span class="percent"></span>
+                        <span class="down-arrow"></span>
+                    </div>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+        <div class="progressbar-item">
+            <h4 class="progress-title">JavaScript</h4>
+            <div progress-bar data-percentage="50%">
+                <div class="progress-number">
+                    <div class="progress-number-mark">
+                        <span class="percent"></span>
+                        <span class="down-arrow"></span>
+                    </div>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Image Light Box Plugin -->
+
+      <section class="useSliderPlugin">
+        
+          <img src="./images/1.jpg" alt="">
+        
+          <img src="./images/2.jpg" alt="">
+        
+          <img src="./images/3.jpg" alt="">
+        
+          <img src="./images/4.jpg" alt="">
+
+          <img src="./images/5.jpg" alt="">
+          
+        
+        </section>
+  
+
+
+    <!-- ==Js links== -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- count 2 -->
+    <script src="./vendor/counter-up/countme.min.js"></script>
+    <!-- cdn link -->
+
+    <script src="./vendor/counter-up/imagesSlider.js"></script>
+    <script src="./vendor/counter-up/animated-counter-prograssbar.js"></script>
+    <script src="./vendor/counter-up/jquery.countdown360.js"></script>
+    <script src="vendor/counter-up/waypoints.min.js"></script>
+    <script src="./vendor/counter-up/jquery.counterup.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
